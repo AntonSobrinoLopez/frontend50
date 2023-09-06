@@ -25,12 +25,56 @@ Solo necesitas escribir el HTML que iría dentro de la etiqueta <body> del docum
     <div id="form1">
         <div calss="entry">
             <form action="" method="get">
-                <div class="formlabel">
-                    <label for="username">User Name:</label>
+
+                <div class="formelement">
+                    <div class="formlabel">
+                        <label for="username">User Name:</label>
+                    </div>
+                    <div >
+                        <input type="text" id = "username" name="username" class="forminput" required>
+                    </div>
                 </div>
-                <div >
-                    <input type="text" id = "username" name="username" class="forminput">
+                <div class="formelement">
+                    <div class="formlabel">
+                        <label for="password">Password:</label>
+                    </div>
+                    <div >
+                        <input type="password" id = "password" name="password" class="forminput" required>
+                    </div>
                 </div>
+                <div class="formelement">
+                    <div class="formlabel">
+                        <label for="email">E-Mail:</label>
+                    </div>
+                    <div >
+                        <input type="email" id = "" name="email" class="forminput" required>
+                    </div>
+                </div>
+                <div class="formelement">
+                    <div class="formlabel">
+                        <label for="telephone">Telephone Number:</label>
+                    </div>
+                    <div >
+                        <input type="tel" id = "telephone" name="telephone" class="forminput" >
+                    </div>
+                </div>
+                <div class="formelement">
+                    <div class="formlabel">
+                        <label for="brithday">Birthday:</label>
+                    </div>
+                    <div >
+                        <input type="date" id = "brithday" name="brithday" class="forminput"  >
+                    </div>
+                </div> 
+                <div class="formelement">
+                    <div id="conditions">
+                        <label for="accept">conditions of use</label>
+                        <input type="checkbox" id = "accept" name="accept" class="forminput"  >
+                    </div>
+                </div> 
+                <div class="formelement">
+                    <input type="submit" value="Submit" id="submit">       
+                </div>    
         </div>
 
 

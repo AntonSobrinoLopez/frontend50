@@ -4,6 +4,7 @@ html{
     font-family: "Arial", sans-serif;
     width: 100%;
     height: 100%;
+    font-size:larger;
 }
 
 #Titel1{
@@ -25,11 +26,28 @@ margin: 0 auto;
 .formlabel{
     margin-left:0%;
     padding:0 0% 0.5pc 0%;
-    font-weight:100;
+
 }
 
 .forminput{
-    width: 40vw;
+    width: 15vw;
     height: 4vh;
-    background-color: rgb(183, 180, 200);
+    background-color: rgb(217, 215, 229);
+}
+
+.formelement{
+    padding-top: 2vh;
+}
+
+#conditions{
+    display: flex;
+    align-items: center;
+}
+
+#submit{
+    width: 15vw;
+    height: 4vh;
+    background-color: rgb(217, 215, 229);
+    
+
 }
