@@ -19,8 +19,19 @@ margin: 0 auto;
     justify-content: center; /* Centrar horizontalmente en el viewport */
     align-items: center; /* Centrar verticalmente en el viewport */
     list-style: 12px;
-    /* border: 10px solid white;
-    margin: 50px 50px 50px 50px */
+    /* background-color: rgb(94, 104, 93); */
+   
+    
+}
+
+.entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(94, 104, 93);
+    border: 5px solid white;
+    width: 25%;
+    height: 75%;
 }
 
 .formlabel{
@@ -30,7 +41,7 @@ margin: 0 auto;
 }
 
 .forminput{
-    width: 15vw;
+    width: 12vw;
     height: 4vh;
     background-color: rgb(217, 215, 229);
 }
@@ -44,8 +55,13 @@ margin: 0 auto;
     align-items: center;
 }
 
+#accept{
+    padding-left: 5px;
+    width: 2vh;
+ }
+
 #submit{
-    width: 15vw;
+    width: 7vw;
     height: 4vh;
     background-color: rgb(217, 215, 229);
     
