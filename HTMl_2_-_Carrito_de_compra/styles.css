@@ -7,8 +7,27 @@ html{
     font-size:larger;
 }
 
+body{
+    width: 80%;
+    height: 80%;
+
+}
+
 #Titel1{
 text-align: center;
 margin: 0 auto;
+font-size: 2em;
 }
+
+#table{
+    padding: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border:1px solid white;
+    padding: 10px;
+  }
 
