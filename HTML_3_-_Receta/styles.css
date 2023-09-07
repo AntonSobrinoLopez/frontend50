@@ -14,14 +14,15 @@ color: rgb(66, 22, 244);
 
 }
 
+#centrado{
+    width: 50%;
+}
+
 
 #flex-container1{
     display: flex;
     justify-content: center;
     align-content: center;
-
-    
-
 }
 
 #flex-container1 > div {
@@ -30,4 +31,10 @@ color: rgb(66, 22, 244);
     padding: 20px;
     font-size: 30px;
     border: 1px solid black;
+    font-size: 1.2rem;
+}
+
+#flex-container1 > div >ol {
+    font-size: 1.2rem;
+
 }

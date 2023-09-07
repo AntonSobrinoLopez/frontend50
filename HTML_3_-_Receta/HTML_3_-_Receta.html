@@ -35,7 +35,7 @@ Tu código HTML debe usar un marcado semántico adecuado. Sin embargo, solo nece
     <div id="'div-master">
         <section id="ingredient">
             <div id="flex-container1">
-                <div>
+                <div id="centrado" >
                     <ul>
                         <li>Espaguetis</li>
                         <li>Salsa Marinara</li>
@@ -49,19 +49,23 @@ Tu código HTML debe usar un marcado semántico adecuado. Sin embargo, solo nece
                 </div>
             </div>
         </section>
-
         <section id="ingredient">
             <div id="flex-container1">
-                <div>
-                    <ul>
-                        <li>Espaguetis</li>
-                        <li>Salsa Marinara</li>
-                        <li>sal</li>
-                        <li>Agua</li>
-                    </ul>
+                <div id="centrado">
+                    <ol>
+                        <li>Llevar el agua a ebullición.</li>
+                        <li>Agregar los espaguetis al agua hirviendo.</li>
+                            <ol id="subindice">
+                                <li>Agregar sal al gusto.</li>
+                                <li>Cocinar durante 10 minutos, revolviendo ocasionalmente.</li>
+                            </ol>
+                        <li>Agregar la salsa marinara a una sartén, llevar a fuego lento</li>
+                        <li>Mezclar los espaguetis cocidos con la salsa marinara.</li>
+                        <li>¡Disfruta!</li>
+                    </ol>
                 </div>
                 <div>
-                    <img src="img/spaguet.jpg" alt="espaguetis" width="200" height="200">
+                    <img src="img/images.jpg" alt="espaguetis" width="200" height="200">
 
                 </div>
             </div>
