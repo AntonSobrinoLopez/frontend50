@@ -11,12 +11,16 @@ text-align: center;
 margin: 0 auto;
 font-size: 2em;
 color: rgb(66, 22, 244);
+
 }
 
 
 #flex-container1{
     display: flex;
-    background-color: brown;
+    justify-content: center;
+    align-content: center;
+
+    
 
 }
 
@@ -24,4 +28,6 @@ color: rgb(66, 22, 244);
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;}
+    font-size: 30px;
+    border: 1px solid black;
+}
