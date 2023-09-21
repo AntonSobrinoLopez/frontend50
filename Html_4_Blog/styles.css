@@ -1,6 +1,9 @@
 html{
     width: 100%;
     height: 100%;
+    font-family: 'Raleway', sans-serif;
+    
+
 }
 body{
     background-color: lightgrey;
@@ -10,5 +13,12 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
+   color: rgb(23, 23, 58);
+   font-weight: bold
 
+}
+
+.contentsection{
+    margin: 0 15% 0 15%;
+    text-align: justify;
 }
