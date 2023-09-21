@@ -6,6 +6,7 @@ html{
 
 }
 body{
+
     background-color: lightgrey;
     }
 
@@ -21,4 +22,17 @@ body{
 .contentsection{
     margin: 0 15% 0 15%;
     text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+
+
 }
